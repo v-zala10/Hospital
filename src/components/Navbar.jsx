@@ -5,12 +5,16 @@ function Navbar() {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <div className="left">
-            <img src={logo} alt="Logo" width="100" />
-            <a class="navbar-brand" href="#">MediCAre
+        <div class="container-fluid ">
+
+          <div className="brandname">
+            <div className="">
+              <img src={logo} alt="Logo" width="100" />
+            </div>
+            <div className="">
+              <h2>Medi<span>Care</span></h2>
               <p>Healthcare Solutions</p>
-            </a>
+            </div>
           </div>
 
           <div className="display">
@@ -34,11 +38,11 @@ function Navbar() {
             </div>
 
           </div>
-            <div className='adminbtn'>
+          <div className='adminbtn'>
 
-              <button>Doctor Admin</button>
-              <button>Login</button>
-            </div>
+            <button>Doctor Admin</button>
+            <button>Login</button>
+          </div>
         </div>
       </nav>
 
