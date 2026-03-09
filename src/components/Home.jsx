@@ -39,7 +39,7 @@ function Home() {
                         <div className="button2">
                             <button className='greenbtn'> <LuUsers /> 500+ Doctors</button>
                             <button className='greenbtn'> <FaCalendarAlt /> Book Appointment Now</button>
-                            <button style={{ backgroundColor: '#c80508' }} className='red' > <IoMdCall /> Emergency Call</button>
+                            <button style={{ backgroundColor: '#c8050879' }} className='red' > <IoMdCall /> Emergency Call</button>
 
                         </div>
                     </div>

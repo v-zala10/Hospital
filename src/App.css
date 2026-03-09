@@ -139,7 +139,7 @@
         border-radius: 25px;
         padding: 10px;
         color: white;
-        width: 80%;
+        width: 90%;
         justify-content: space-between;
         align-items: center;
 
@@ -147,18 +147,41 @@
     }
 
     .red {
-        background-color: red !important;
+        /* background-color: rgba(179, 69, 69, 0.571) !important; */
         gap: 10px;
         margin: 10px;
-        /* background-image: linear-gradient(to right, #08cc5d, #079243); */
-        border: none;
+        /* background-image: linear-gradient(to right, #cf2711, #c730127e); */
+        border: 1px solid red;
         border-radius: 25px;
         padding: 10px;
-        color: white;
-        width: 80%;
+        color: red;
+        width: 90%;
         justify-content: space-between;
         align-items: center;
 
     }
 
+}
+
+/* home end */
+
+/* Certified section start */
+
+
+.text {
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        background-image: linear-gradient(rgb(26, 219, 55), rgb(5, 66, 50));
+        color: transparent;
+        background-clip: text;
+    }
+    h4{
+        font-weight: 100;
+    }
 }
