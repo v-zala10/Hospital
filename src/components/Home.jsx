@@ -13,6 +13,7 @@ import { IoMdCall } from "react-icons/io";
 function Home() {
     return (
         <div>
+            
             <div className="home">
 
                 <div className="heading">

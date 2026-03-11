@@ -10,7 +10,7 @@ function Homepage() {
     <div>
       <Navbar />
       <Home />
-      <hr />
+      <hr style={{ width: "100%", border: "3px solid #7DEDB5", marginTop: "50px" }} />
       <Certificate/>
     </div>
   )
