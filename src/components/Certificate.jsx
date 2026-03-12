@@ -10,7 +10,7 @@ import c6 from '../images/C6.webp'
 
 function Certificate() {
   return (
-    <div>
+    <div className="certificateMain">
       <div className="text">
         <h1>CERTIFIED & EXCELLENCE</h1>
         <h4>Government recognized and internationally accredited healthcare standards</h4>
