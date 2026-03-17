@@ -10,7 +10,7 @@ import c6 from '../images/C6.webp'
 
 function Certificate() {
   return (
-    <div>
+    <div className="certificateMain">
       <div className="text">
         <h1>CERTIFIED & EXCELLENCE</h1>
         <h4>Government recognized and internationally accredited healthcare standards</h4>
@@ -82,6 +82,37 @@ function Certificate() {
             <img src={c6} alt="Certificate" />
             <p>Paramedical Council</p>
           </span>
+
+          <span>
+            <img src={c1} alt="Certificate" />
+            <p>Medical Commission</p>
+          </span>
+
+          <span>
+            <img src={c2} alt="Certificate" />
+            <p>Government Approved</p>
+          </span>
+
+          <span>
+            <img src={c3} alt="Certificate" />
+            <p>NABH Accredited</p>
+          </span>
+
+          <span>
+            <img src={c4} alt="Certificate" />
+            <p>Medical Council</p>
+          </span>
+
+          <span>
+            <img src={c5} alt="Certificate" />
+            <p>Quality Healthcare</p>
+          </span>
+
+          <span>
+            <img src={c6} alt="Certificate" />
+            <p>Paramedical Council</p>
+          </span>
+
 
         </div>
       </div>
