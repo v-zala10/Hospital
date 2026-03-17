@@ -46,7 +46,7 @@ function MedicalTeam() {
 
 
     return (
-        <div>
+        <div className='full'>
             <div className="medical"> <h1>Our Medical Team</h1>
                 <h4>Book appointments quickly with our verified specialists.</h4>
             </div>
@@ -56,8 +56,8 @@ function MedicalTeam() {
                     <div className="card" key={Doctor.id}>
                         <img src={Doctor.img} alt={Doctor.name} />
                         <h2>{Doctor.name}</h2>
-                        <p><strong>Department:</strong> {Doctor.dept}</p>
-                        <p><strong>Experience:</strong> {Doctor.experience}</p>
+                        <p>Dept:{Doctor.dept}</p>
+                        <p>Experience: {Doctor.experience}</p>
                         <button> <MdKeyboardDoubleArrowRight /> Book Appointment</button>
                     </div>
                 ))}
