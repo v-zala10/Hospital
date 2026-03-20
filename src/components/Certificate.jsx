@@ -51,7 +51,7 @@ function Certificate() {
             <p>Paramedical Council</p>
           </span>
 
-          {/* duplicate for smooth infinite scroll */}
+         {/* duplicate */}
 
           <span>
             <img src={c1} alt="Certificate" />

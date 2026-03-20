@@ -48,7 +48,7 @@ function MedicalTeam() {
     return (
         <div className='full'>
             <div className="medical"> <h1>Our Medical Team</h1>
-                <h4>Book appointments quickly with our verified specialists.</h4>
+                <p>Book appointments quickly with our verified specialists.</p>
             </div>
 
             <div className="cards">
