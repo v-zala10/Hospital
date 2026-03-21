@@ -5,6 +5,7 @@ import { GrEmergency } from 'react-icons/gr'
 import Certificate from '../components/Certificate.jsx'
 import MedicalTeam from '../components/MedicalTeam.jsx'
 import Review from '../components/Review.jsx'
+import Footer from '../components/Footer.jsx'
 
 function Homepage() {
   return (
@@ -15,6 +16,7 @@ function Homepage() {
       <Certificate/>
       <MedicalTeam />
       <Review />
+      <Footer />
 
     </div>
   )
