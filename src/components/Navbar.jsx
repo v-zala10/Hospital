@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../images/logo.webp'
 import { FaRegUser } from "react-icons/fa6";
 import { FiKey } from "react-icons/fi";
-
+import { NavLink } from 'react-router-dom';
 function Navbar() {
   return (
     <div>
@@ -21,7 +21,7 @@ function Navbar() {
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Doctors</a>
+                <NavLink class="nav-link" to='/doctors'>Doctors</NavLink>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>
