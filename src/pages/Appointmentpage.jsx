@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar.jsx' 
 
 function Appointmentpage() {
   return (
-    <div>Appointmentpage</div>
+    <div>
+      <Navbar />
+      </div>
   )
 }
 

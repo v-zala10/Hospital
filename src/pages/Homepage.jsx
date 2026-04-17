@@ -10,7 +10,7 @@ import Footer from '../components/Footer.jsx'
 function Homepage() {
   return (
     <div>
-     
+     <Navbar />
       <Home />
       <hr style={{ width: "100%", border: "3px solid #7DEDB5", marginTop: "50px" }} />
       <Certificate/>

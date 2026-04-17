@@ -16,23 +16,21 @@ function Navbar() {
           </div>
 
           <div className="links" style={{ justifyContent: 'center' }}>
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <NavLink class="nav-link" to='/doctors'>Doctors</NavLink>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Appointment</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
+            <div className='nav-link'>
+
+
+              <NavLink to='/Home'>Home</NavLink>
+
+
+              <NavLink to='/Doctors'>Doctors</NavLink>
+
+
+              <NavLink to='/Service'>Service</NavLink>
+
+              <NavLink to='/Appoiment'>Appoiment</NavLink>
+
+              <NavLink to='/Contact'>Contact</NavLink>
+            </div>
           </div>
 
           <div className="btn">
