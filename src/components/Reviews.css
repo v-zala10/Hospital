@@ -45,11 +45,11 @@ main {
 .review {
   display: flex;
   gap: 20px;
-
   box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 18px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   padding: 10px 10px;
   border-radius: 20px;
   /* padding: 20px 0 !important; */
+  height: 100%;
 
   .drinfo {
     display: flex;
@@ -59,7 +59,6 @@ main {
     h5 {
       font-size: 16px;
       color: #193CB8;
-      margin-top: 2px;
     }
 
     h6 {
@@ -68,7 +67,6 @@ main {
 
     p {
       font-style: italic;
-      
     }
   }
 }
@@ -100,7 +98,7 @@ main {
   }
 
   h1 {
-    margin-top: 0;
+    margin: 0;
     background-color: #DBFCE7;
     color: #25DC9C;
   }
@@ -108,8 +106,8 @@ main {
 
 .slider .list .item {
   width: 92%;
-  margin: 20px 20px;
-  height: 120px;
+  margin: 0px 20px;
+  height: 180px;
   position: absolute;
   top: 100%;
   animation: autoRun 16s linear infinite;
@@ -158,4 +156,8 @@ main {
   to {
     top: 100%;
   }
+}
+
+.text{
+  margin-top:  0 !important;
 }

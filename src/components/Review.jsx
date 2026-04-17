@@ -121,7 +121,7 @@ function Review() {
         </div>
 
         <div
-          className="slider slider2"
+          className="slider slider2" 
           reverse="true"
           style={{ "--height": "160px", "--quantity": "4", "border": "2px solid #DBFCE7" }}
         >
