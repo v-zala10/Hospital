@@ -1,6 +1,8 @@
 import React from 'react'
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
-
+import { FaAnglesRight } from "react-icons/fa6";
+import { CiMedal } from "react-icons/ci";
+import { RxCross2 } from "react-icons/rx";
 function MedicalTeam() {
 
     const medicalTeam =
@@ -89,13 +91,13 @@ function MedicalTeam() {
 
             <div className="cards">
                 {medicalTeam.map((Doctor) => (
-                    <div className="card" key={Doctor.id}>
-                        <img src={Doctor.img} alt={Doctor.name} />
-                        <h2>{Doctor.name}</h2>
-                        <p>Dept:{Doctor.dept}</p>
-                        <p>Experience: {Doctor.experience}</p>
-                        <button> <MdKeyboardDoubleArrowRight /> Book Appointment</button>
-                    </div>
+                     <div className='drcard'>
+                    <img src={Doctor.img} alt={Doctor.name} />
+                    <h2>{Doctor.name}</h2>
+                    <h4>{Doctor.dept}</h4>
+                    <div><CiMedal className='me-2' />{Doctor.experience}</div>
+                    <button><FaAnglesRight className='mx-1 mb-1' />Book Now </button>
+                  </div>
                 ))}
 
             </div>

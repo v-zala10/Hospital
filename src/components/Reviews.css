@@ -1,3 +1,41 @@
+.text {
+
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    background-image: linear-gradient(rgb(26, 219, 55), rgb(33, 146, 199));
+    color: transparent;
+    background-clip: text;
+  }
+
+  h4 {
+    font-weight: 500;
+    margin-bottom: 0%;
+     
+
+  }
+
+  /* p {
+    color: #00AC4A;
+    background-color: #3bc37629;
+    padding: 10px;
+    border: 2px solid #00ac4b3f;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 500;
+
+  } */
+}
+
 main {
   width: min(1200px, 90vw);
   height: 100vh;
@@ -158,6 +196,6 @@ main {
   }
 }
 
-.text{
-  margin-top:  0 !important;
+.text {
+  margin-top: 0 !important;
 }

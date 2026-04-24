@@ -10,8 +10,10 @@ import { FaRegStar } from "react-icons/fa";
 function Review() {
   return (
     <div>
-      <h1 style={{ textAlign: "center", fontSize: "52px" }}>Voices of Trust</h1>
-      <p style={{ textAlign: "center", fontSize: "20px" }}>Real stories from doctors and patients sharing their positive experiences with our healthcare platform</p>
+      <div className="text">
+        <h1 style={{ textAlign: "center", fontSize: "52px" }}>Voices of Trust</h1>
+        <h4 style={{ textAlign: "center", fontSize: "20px" }}>Real stories from doctors and patients sharing their positive experiences with our healthcare platform</h4>
+      </div>
       <main>
 
         <div
@@ -115,13 +117,13 @@ function Review() {
                 </div>
               </div>
             </div>
-            
-           
+
+
           </div>
         </div>
 
         <div
-          className="slider slider2" 
+          className="slider slider2"
           reverse="true"
           style={{ "--height": "160px", "--quantity": "4", "border": "2px solid #DBFCE7" }}
         >
@@ -220,8 +222,8 @@ function Review() {
                 </div>
               </div>
             </div>
-           
-           
+
+
           </div>
         </div>
       </main>

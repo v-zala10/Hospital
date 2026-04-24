@@ -19,17 +19,17 @@ function Navbar() {
             <div className='nav-link'>
 
 
-              <NavLink to='/Home' className='navl'>Home</NavLink>
+              <NavLink to='/' className='navl' style={{gap:'10px'}}>Home</NavLink>
 
 
-              <NavLink to='/Doctors'>Doctors</NavLink>
+              <NavLink to='/Doctors' className='navl'>Doctors</NavLink>
 
 
-              <NavLink to='/Service'>Service</NavLink>
+              <NavLink to='/Service' className='navl'>Service</NavLink>
 
-              <NavLink to='/Appoiment'>Appoiment</NavLink>
+              <NavLink to='/Appoiment' className='navl  '>Appoiment</NavLink>
 
-              <NavLink to='/Contact'>Contact</NavLink>
+              <NavLink to='/Contact' className='navl'>Contact</NavLink>
             </div>
           </div>
 
